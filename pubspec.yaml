@@ -1,0 +1,38 @@
+name: demo_math_puzzel
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get:
+  shared_preferences:
+  share_plus:
+  unity_ads_plugin:
+  just_audio:
+  lottie:
+  drop_shadow_image:
+  flutter_animate:
+  progress_state_button:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - asserts/images/
+    - asserts/songs/
+    - asserts/lottie/
+  fonts:
+    - family: chalk
+      fonts:
+        - asset: asserts/fonts/chalk.ttf
